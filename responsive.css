@@ -1,0 +1,51 @@
+
+@media( max-width:768px){
+   .text1{
+      left: 30%;
+    }
+
+   .text2{
+      left: 30%;
+    }
+
+}
+
+@media(max-width:576px){
+    .text1{
+      left: 25%;
+      font-size:4rem ;
+    }
+
+    .text2{
+      left:25%;
+      font-size: 1.5rem;
+      top: 260px;
+    }
+
+    .home>img{
+      width: 1100px;
+      height: 500px;
+    }
+    .ability img{
+      width:200px ;
+    
+    }
+    .ability p{
+      font-size: 15px;
+   
+    }
+}
+ @media(max-width:320px){
+    .text1{
+      left: 50%;
+      text-align: center;
+      font-size: 3.5rem;
+    }
+
+    .text2{
+      left: 50%;
+      top: 300px;
+    }
+
+   
+ }
