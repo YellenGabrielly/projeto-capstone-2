@@ -1,40 +1,152 @@
+@media(max-width:992px){
+  .text1{
+   left:35% ;
+  }
+
+  .text2{
+    left: 35%;
+  }
+
+  .home img{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+  }
+
+  
+
+  .ability{
+    width: 59%;
+    left: 30%;
+    margin-left: 255px;
+  }
+
+  .ability img{
+     width: 200px;
+  }
+
+  .ability p{
+    font-size:1.2rem;
+   
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .contact h2 {
+    margin-left: 2%;
+    font-size: 3rem;
+  }
+
+  .contact button{
+  padding: 10px 30px; 
+  font-size: 25px; 
+  }
+
+ 
+
+
+   
+
+
+ 
+
+}
 
 @media( max-width:768px){
+   
    .text1{
-      left: 30%;
+     left: 35%;
+     width: 50%;
+     font-size: 4rem;
+   
     }
 
    .text2{
-      left: 30%;
+    left: 35%;
+    width: 50%;
+    font-size: 1.5rem;
+    top: 250px;
     }
 
+    .home img{
+      height: 450px;
+      object-fit: cover;
+      width: 100%;
+    }
 }
 
 @media(max-width:576px){
-    .text1{
-      left: 25%;
-      font-size:4rem ;
-    }
+  .text1{
+    left: 30%;
+    font-size:3rem ;
+    text-align: center;
+    width: 50%;
+  }
 
-    .text2{
-      left:25%;
-      font-size: 1.5rem;
-      top: 260px;
-    }
+  .text2{
+    left:30%;
+    font-size: 1.5rem;
+    top: 260px;
+    text-align: center;
+    width: 50%;
+  }
 
-    .home>img{
-      width: 1100px;
-      height: 500px;
-    }
-    .ability img{
-      width:200px ;
-    
-    }
-    .ability p{
-      font-size: 15px;
+  .home img{
+    width: 100%;
+    height:500px ;
+    object-fit: cover;
+  }
+  
+  .ability{
+    width: 100%;
+  }
+
+  .ability img{
+    width: 150px;
+    height: 200px;
+    object-fit:contain;
+  }
+
+  .ability p{
+    width: 80%;
    
-    }
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
 }
+
+@media(max-width:450px){
+  .text1{
+    left: 27%;
+    width: 50%;
+  }
+
+  .text2{
+    left: 26%;
+    width: 50%;
+  }
+
+}
+
+@media(max-width:413px){
+  .text2{
+    top:300px;
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width:347px){
+  .home img{
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
  @media(max-width:320px){
     .text1{
       left: 20%;
@@ -43,7 +155,7 @@
     }
 
     .text2{
-      left: 25%;
+      left: 20%;
       top: 250px;
       font-size: 1.4rem;
     }
@@ -58,11 +170,13 @@
     .ability{
       width: 100%;
     }
+
     .ability img{
       width: 150px;
       height: 200px;
       object-fit:contain;
     }
+
     .ability p{
       width: 80%;
      
@@ -70,4 +184,6 @@
     .title{
       font-size: 1.1rem;
     }
+
  }
+ 
