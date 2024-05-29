@@ -1,7 +1,9 @@
 body{
-    background-color: #d4b99ae0;
+    background-color: #dfa678e0;
     margin-top: 0;
     text-align: center;
+    margin: 0;
+    
 }
 
  .conteiner{
@@ -32,7 +34,7 @@ body{
 
  .home>img{
     margin: 0;
-    width: 1400px;
+    width: 1350px;
     height: 640px;
     opacity: 0.8;
  
@@ -76,14 +78,13 @@ body{
 
 .ability{
    display: grid;
-   grid-template-columns: 0.5fr 1fr ;
-   grid-template-rows: repeat(1, 1fr 1fr );
-   row-gap: 2rem;
-   column-gap: 30px ;
+   grid-template-columns: 0.5fr 1fr;
+   grid-template-rows: repeat(1, 1fr);
    width: 50%;
+   margin: 100px auto 0 auto;
    text-align: left;
-   margin: 400px auto auto;
-   margin-top: 50px;
+   row-gap: 3rem;
+   
  
 }
     
@@ -153,7 +154,7 @@ button:hover{
 
 footer{
    margin-top: 30px;
-   background-color: #fab074e0;
+   background-color: #ec944ce0;
    padding: 20px;
 }
 
@@ -172,5 +173,9 @@ footer p{
 
 footer a:hover{
    color: white;
+}
+
+body{
+   background-color: aqua;
 }
 
