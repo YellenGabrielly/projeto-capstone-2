@@ -197,13 +197,13 @@
     }
 
     .ability img{
-      width: 150px;
+      width: 100px;
       height: 200px;
       object-fit:contain;
     }
 
     .ability p{
-      width: 80%;
+      width: 50%;
      
     }
     .title{
